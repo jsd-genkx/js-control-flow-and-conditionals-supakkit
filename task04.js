@@ -9,7 +9,7 @@
 
 
 // const num = 15;
-const num = 9;
+const num = 8;
 
 if ( num % 3 === 0 && num % 5 === 0 ) {
     console.log( "FizzBuzz" );
@@ -23,7 +23,7 @@ else if ( num % 5 === 0 ) {
 else {
     console.log( "Not divisible by 3 or 5" )
 }
-    
+
 // TODO BONUS: Rewrite with if
 
 // if ( num % 3 === 0 && num % 5 === 0 ) {
@@ -38,3 +38,15 @@ else {
 // if ( num % 3 !== 0 && num % 5 !== 0 ) {
 //     console.log( "Not divisible by 3 or 5" );
 // }
+
+// let result = '';
+// if ( num % 3 === 0 ) {
+//     result += "Fizz";
+// }
+// if ( num % 5 === 0 ) {
+//     result += "Buzz";
+// }
+// if ( result === '' ) {
+//     result = "Not divisible by 3 or 5";
+// }
+// console.log( result );
